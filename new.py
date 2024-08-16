@@ -10,6 +10,17 @@ s.geometry("1024x512")
 s['bg'] = "#00d2d2"
 
 # mysql connection
+# create database name as student and their table name is tb1
+# mysql query given below that store student data
+# ALTER TABLE `student`.`tb1` 
+# CHANGE COLUMN `First_Name` `First_Name` VARCHAR(45) NULL ,
+# CHANGE COLUMN `Sur_Name` `Sur_Name` VARCHAR(45) NULL ,
+# CHANGE COLUMN `Dob` `Dob` VARCHAR(45) NULL ,
+# CHANGE COLUMN `Age` `Age` VARCHAR(45) NULL ,
+# CHANGE COLUMN `Address` `Address` VARCHAR(45) NULL ,
+# CHANGE COLUMN `Mobile` `Mobile` VARCHAR(255) NULL ,
+# CHANGE COLUMN `Gender` `Gender` VARCHAR(45) NULL ;
+
 def conn():
     Student_ID = e.get()
     First_Name = e1.get()
