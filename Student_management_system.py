@@ -1,3 +1,17 @@
+############################################################################################## Use this Queries for Mysql Datatbase ###############################################################################
+# CREATE DATABASE studentdb;
+# USE studentdb;
+# CREATE TABLE students (
+#     Student_ID INT PRIMARY KEY,
+#     First_Name VARCHAR(100),
+#     Sur_Name VARCHAR(100),
+#     Dob DATE,
+#     Age INT,
+#     Gender VARCHAR(10),
+#     Address TEXT,
+#     Mobile VARCHAR(15)
+# );
+####################################################################################################################################################################################################################
 
 import mysql.connector
 from tkinter import *
